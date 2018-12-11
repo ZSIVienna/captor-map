@@ -2,13 +2,19 @@
 
 Visualization of static ozone measurement stations in Italy, Spain and Austria
 
+## URL
+https://map.captor-project.eu/2017
+https://map.captor-project.eu/2018
+
 ## Documentation
-
-https://www.its.zsi.at/wiki/index.php/Service_map.captor-project.eu
-
-The static html files are generated with the IPython notebook. 
-It generates an index.html file and for each location an html file which is included in the map as an iframe. 
-The script/notebook will process data from two different formats, the "captor"-format and "raptor"-format.
+The static html files are generated with the IPython notebook. It generates an index.html file and for each location an html file which is included in the map as an iframe. The jupyter-notebook (https://jupyter.org/) will process data from two different formats, the "captor"-format and "raptor"-format.
 
 ### Run the notebook
+1. Create pip or pipenv environment
+2. Clone the repository
+3. Install requirements
+4. Start the notebook
+5. Have fun
 
+Further documentation regarding jupyter-notebooks can be found here:
+https://jupyter-notebook.readthedocs.io/en/stable/
