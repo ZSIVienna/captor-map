@@ -16,8 +16,15 @@ The static html files are generated with the IPython notebook. It generates an i
 4. Start the notebook
 5. Have fun
 
+Start the notebook
+    
+    jupyter notebook
+
+
 If you do not want to start a jupyter notbook in the browser you can also execute all cells from the command line with this command:
-    > jupyter nbconvert --to notebook --execute CAPTOR_MAP.ipynb
+    
+    jupyter nbconvert --to notebook --execute CAPTOR_MAP.ipynb
 
 Further documentation regarding jupyter-notebooks can be found here:
+
 https://jupyter-notebook.readthedocs.io/en/stable/
