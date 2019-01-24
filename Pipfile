@@ -8,8 +8,10 @@ verify_ssl = true
 [packages]
 ipython = "*"
 pandas = "*"
-vega3 = "*"
 folium = "*"
+jupyter = "*"
+vega = "*"
+bs4 = "*"
 
 [requires]
 python_version = "3.7"
